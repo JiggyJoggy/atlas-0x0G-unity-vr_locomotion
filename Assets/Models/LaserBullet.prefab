@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 7176460472207765423}
   m_Layer: 0
   m_Name: LaserBullet
-  m_TagString: EnemyLaser
+  m_TagString: LaserBullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -148,3 +148,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e802d240a1ffb84cb94d7e056ee267f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  laserSpeed: 20

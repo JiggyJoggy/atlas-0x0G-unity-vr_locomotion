@@ -22,7 +22,7 @@ public class EnemyShooting : MonoBehaviour
         {
             Debug.Log("Fired");
             Vector3 newLaserPos = transform.position + -(transform.forward) * laserOffset;
-            newLaserPos.y = 1.47f;
+            newLaserPos.y = 1.32f;
             Debug.Log(newLaserPos);
             Instantiate(laser, newLaserPos, laser.transform.rotation);
 
